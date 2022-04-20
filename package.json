@@ -1,0 +1,43 @@
+{
+	"name": "smial",
+	"description": "a burrow for me to keep my tools in",
+	"version": "1.0.1",
+	"license": "MIT",
+	"bin": {
+		"smial": "--experimental-json-modules index.js"
+	},
+	"author": {
+		"name": "Eric Anderson",
+		"email": "anderson.eric.t@gmail.com",
+		"url": "https://github.com/ETAnderson"
+	},
+	"keywords": [
+		"smial",
+		"Eric Anderson"
+	],
+	"files": [
+		"index.js",
+		"utils"
+	],
+	"scripts": {
+		"format": "prettier --write \"./**/*.{js,json}\""
+	},
+	"type": "module",
+	"dependencies": {
+		"@octokit/rest": "^18.12.0",
+		"chalk": "^4.1.2",
+		"cli-alerts": "^1.2.2",
+		"cli-handle-error": "^4.4.0",
+		"cli-handle-unhandled": "^1.1.1",
+		"cli-meow-help": "^3.1.0",
+		"cli-welcome": "^2.2.2",
+		"dotenv": "^16.0.0",
+		"inquirer": "^8.2.2",
+		"meow": "^9.0.0",
+		"open": "^8.4.0",
+		"ora": "^6.1.0"
+	},
+	"devDependencies": {
+		"prettier": "^2.6.2"
+	}
+}
