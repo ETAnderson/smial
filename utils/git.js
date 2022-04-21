@@ -20,9 +20,9 @@ export default async function git() {
 	const answer = await inquirer.prompt(question);
 
 	if (answer.proceed == 'Yes') {
-		spinner.start(chalk.gray('Authenticating...'));
-		const octokit = await authenticate();
-		spinner.succeed(chalk.bold('Authentification successful!'));
+		//spinner.start(chalk.gray('Authenticating...'));
+		//const octokit = await authenticate();
+		//spinner.succeed(chalk.bold('Authentification successful!'));
 		//activate git actions here.
 		const question = [
 			{
