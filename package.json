@@ -24,7 +24,6 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@octokit/rest": "^18.12.0",
 		"chalk": "^4.1.2",
 		"cli-alerts": "^1.2.2",
 		"cli-handle-error": "^4.4.0",
