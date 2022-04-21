@@ -45,6 +45,12 @@ const flags = {
 		default: false,
 		desc: `Open default browser (or new tab in already opened default browser) pointed at YouTube Music`
 	},
+	newProject:{
+		type: 'boolean',
+		default: false,
+		alias: 'n',
+		desc: 'access new project menu'
+	},
 	serve: {
 		type: 'boolean',
 		default: false,
