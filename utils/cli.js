@@ -21,8 +21,13 @@ const flags = {
 	debug: {
 		type: `boolean`,
 		default: false,
-		alias: `d`,
 		desc: `Print debug info`
+	},
+	dev: {
+		type: 'boolean',
+		default: false,
+		alias: 'd',
+		desc: 'Build out your CWD in VSC'
 	},
 	git: {
 		type: 'boolean',
@@ -45,20 +50,14 @@ const flags = {
 		default: false,
 		desc: 'start up your server for your current working directory, based on NPM and Yarn standards'
 	},
-	smial: {
-		type: 'boolean',
-		default: false,
-		alias: 's',
-		desc: 'Build out your CWD in VSC'
-	},
 	version: {
 		type: `boolean`,
-		alias: `v`,
 		desc: `Print CLI version`
 	},
 	view: {
 		type: `boolean`,
 		default: false,
+		alias: `v`,
 		desc: `View your current working directory`
 	},
 };

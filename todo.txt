@@ -6,6 +6,8 @@ automate new projects
 
 add new custom header.
 
+organize/style cli menu/flags to group for like use cases
+
 remove unused packages(octokit?) is octokit or .env variables supplying token for commits? probably .env
 figure out why git push action is returning stderror instead of success
 

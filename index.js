@@ -16,7 +16,7 @@ import view from './utils/view.js';
 import mail from './utils/mail.js';
 import music from './utils/music.js';
 import serve from './utils/serve.js';
-import smial from './utils/smial.js';
+import dev from './utils/dev.js';
 
 const input = cli.input;
 const flags = cli.flags;
@@ -41,8 +41,8 @@ const { clear, debug } = flags;
 	//can be changed by altering url in the "await open(`...`) in utils/music"
 	flags.music && (await music());
 	
-	//accept smial flag and open current folder in VSCode
-	flags.smial && (await smial());
+	//accept dev flag and open current folder in VSCode
+	flags.dev && (await dev());
 
 	//accept serve flag and start up your server, based on NPM and Yarn standards
 	flags.serve && (await serve());
