@@ -1,7 +1,6 @@
 import inquirer from 'inquirer';
 import ora from 'ora';
 import chalk from 'chalk';
-import authenticate from './authenticate.js';
 import { exec } from 'child_process';
 import path from 'path';
 
@@ -20,9 +19,6 @@ export default async function git() {
 	const answer = await inquirer.prompt(question);
 
 	if (answer.proceed == 'Yes') {
-		//spinner.start(chalk.gray('Authenticating...'));
-		//const octokit = await authenticate();
-		//spinner.succeed(chalk.bold('Authentification successful!'));
 		//activate git actions here.
 		const question = [
 			{
