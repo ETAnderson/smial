@@ -86,8 +86,7 @@ export default async function git() {
 			const answer = await inquirer.prompt(question);
 			if (answer.pushConfirm == 'y') {
 				spinner.start('Pushing to remote repository');
-				//exec(`git push https://${process.env.GITHUB_TOKEN}@github.com/${process.env.GITHUB_USERNAME}/${path.basename(path.resolve(process.cwd()))}.git`, (error, stdout, stderr) => {
-				exec(`git push `, (error, stdout, stderr) => {
+				exec(`git push https://${process.env.GITHUB_TOKEN}@github.com/${process.env.GITHUB_USERNAME}/${path.basename(path.resolve(process.cwd()))}.git`, (error, stdout, stderr) => {
 					if (error) {
 						spinner.fail(`error: ${error.message}`);
 						return;
