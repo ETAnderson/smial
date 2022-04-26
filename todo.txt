@@ -1,6 +1,23 @@
-automate new projects
-    react ? with typescript?
-    next    ? with typescript?  
+move todo from .txt to cli. (use __dirname)
+fs
+inquirer
+chalk
+
+pomodoro timer
+
+automate start up:
+    steam
+    discord
+    
+nodemon dev dependency
+
+chain commands in exec( xx && xx && xx)?   
+automate shutdown down/end of night.
+    steam
+    discord
+    
+
+automate new projects 
     express 
     node-cli
 
@@ -8,7 +25,6 @@ add new custom header.
 
 organize/style cli menu/flags to group for like use cases
 
-remove unused packages(octokit?) is octokit or .env variables supplying token for commits? probably .env
 figure out why git push action is returning stderror instead of success
 
 
