@@ -95,11 +95,7 @@ export default async function git() {
 						// 	spinner.fail(`stderr: ${stderr}`);
 						// 	return;
 						// }
-						spinner.succeed(
-							chalk.bold(
-								`Commit successfully pushed to remote repository!`
-							)
-						);
+						spinner.succeed(chalk.bold(`${stdout}`));
 					}
 				);
 			} else {
