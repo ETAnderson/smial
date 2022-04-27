@@ -78,7 +78,7 @@ export default async function todo() {
 			function (err) {
 				if (err) throw err;
 
-				console.log(`new task added: ${newTask}`);
+				console.log(`new task added: ${chalk.italic(newTask)}`);
 			}
 		);
 	} else if (answer.todoMenu == 'delete') {
@@ -112,6 +112,7 @@ export default async function todo() {
 					' does not exist. Nothing deleted.'
 			);
 		} else {
+			spinner.start(chalk.italic(`removing task at ${deleteIndex}`));
 			filterData.splice(filterData.length - deleteIndex, 1);
 
 			// Join the array to form a string
@@ -122,7 +123,7 @@ export default async function todo() {
 				if (err) throw err;
 
 				// Logs the deleted index
-				console.log('Deleted todo #' + deleteIndex);
+				spinner.succeed(chalk.italic(`Deleted todo # ${deleteIndex}`));
 			});
 		}
 	} else if (answer.todoMenu == 'complete') {
@@ -162,6 +163,7 @@ export default async function todo() {
 					'Error: todo #' + completeIndex + ' does not exist.'
 				);
 			} else {
+				spinner.start('finishing task...');
 				const deleted = filterData.splice(
 					filterData.length - completeIndex,
 					1
@@ -178,7 +180,7 @@ export default async function todo() {
 					'x ' + dateString + ' ' + deleted + '\n' + doneData,
 					function (err) {
 						if (err) throw err;
-						console.log(
+						spinner.succeed(
 							'Marked todo #' + completeIndex + ' as done.'
 						);
 					}

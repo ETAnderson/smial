@@ -54,6 +54,7 @@ const flags = {
 	todo: {
 		type: 'boolean',
 		default: false,
+		alias: 't',
 		desc: 'access todo menu'
 	},
 	serve: {

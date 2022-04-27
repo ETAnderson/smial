@@ -1,7 +1,3 @@
-move todo from .txt to cli. (use __dirname)
-fs
-inquirer
-chalk
 
 pomodoro timer
 
