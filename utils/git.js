@@ -87,6 +87,7 @@ export default async function git() {
 						process.env.GITHUB_USERNAME
 					}/${path.basename(path.resolve(process.cwd()))}.git`,
 					(error, stdout) => {
+						if (error) throw error;
 						spinner.succeed(chalk.bold(`${stdout}`));
 					}
 				);
