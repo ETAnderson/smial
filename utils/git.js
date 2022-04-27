@@ -86,8 +86,7 @@ export default async function git() {
 					`git push https://${process.env.GITHUB_TOKEN}@github.com/${
 						process.env.GITHUB_USERNAME
 					}/${path.basename(path.resolve(process.cwd()))}.git`,
-					(error, stdout) => {
-						if (error) throw error;
+					stdout => {
 						spinner.succeed(chalk.bold(`${stdout}`));
 					}
 				);
