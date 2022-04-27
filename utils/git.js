@@ -82,17 +82,26 @@ export default async function git() {
 			const answer = await inquirer.prompt(question);
 			if (answer.pushConfirm == 'y') {
 				spinner.start('Pushing to remote repository');
-				await exec(`git push https://${process.env.GITHUB_TOKEN}@github.com/${process.env.GITHUB_USERNAME}/${path.basename(path.resolve(process.cwd()))}.git`, (error, stdout, stderr) => {
-					if (error) {
-						spinner.fail(`error: ${error.message}`);
-						return;
+				await exec(
+					`git push https://${process.env.GITHUB_TOKEN}@github.com/${
+						process.env.GITHUB_USERNAME
+					}/${path.basename(path.resolve(process.cwd()))}.git`,
+					(error, stdout, stderr) => {
+						// if (error) {
+						// 	spinner.fail(`error: ${error.message}`);
+						// 	return;
+						// }
+						// if (stderr) {
+						// 	spinner.fail(`stderr: ${stderr}`);
+						// 	return;
+						// }
+						spinner.succeed(
+							chalk.bold(
+								`Commit successfully pushed to remote repository!`
+							)
+						);
 					}
-					if (stderr) {
-						spinner.fail(`stderr: ${stderr}`);
-						return;
-					}
-					spinner.succeed(chalk.bold(`Commit successfully pushed to remote repository!`));
-				});
+				);
 			} else {
 				console.log('Push canceled');
 			}
