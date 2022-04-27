@@ -19,6 +19,7 @@ import serve from './utils/serve.js';
 import dev from './utils/dev.js';
 import newProject from './utils/newProject.js';
 import todo from './utils/todo.js';
+import pomodoro from './utils/pomodoro.js';
 
 const input = cli.input;
 const flags = cli.flags;
@@ -45,6 +46,9 @@ const { clear, debug } = flags;
 
 	//accept new flag and access new project menu
 	flags.newProject && (await newProject());
+
+	//accept pomodoro flag and access pomodoro timer
+	flags.pomodoro && (await pomodoro());
 
 	//accept dev flag and open current folder in VSCode
 	flags.dev && (await dev());

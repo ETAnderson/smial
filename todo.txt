@@ -1,5 +1,5 @@
 
-pomodoro timer
+pomodoro timer - system notifications! node-notifier
 
 automate start up:
     steam

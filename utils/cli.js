@@ -51,6 +51,12 @@ const flags = {
 		alias: 'n',
 		desc: 'access new project menu'
 	},
+	pomodoro: {
+		type: 'boolean',
+		default: false,
+		alias: 'p',
+		desc: 'access pomodoro timer'
+	},
 	todo: {
 		type: 'boolean',
 		default: false,

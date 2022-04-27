@@ -1,0 +1,272 @@
+steam.sh[52745]: Running Steam on pop 22.04 64-bit
+steam.sh[52745]: STEAM_RUNTIME is enabled automatically
+setup.sh[52890]: Steam runtime environment up-to-date!
+steam.sh[52745]: Steam client's requirements are satisfied
+Installing breakpad exception handler for appid(steam)/version(1647446817)
+Installing breakpad exception handler for appid(steam)/version(1647446817)
+Installing breakpad exception handler for appid(steam)/version(1647446817)
+Loaded SDL version 2.0.21-7140709
+Gtk-Message: 13:40:59.510: Failed to load module "gail"
+Gtk-Message: 13:40:59.510: Failed to load module "atk-bridge"
+Gtk-Message: 13:40:59.510: Failed to load module "appmenu-gtk-module"
+
+(steam:52963): Gtk-WARNING **: 13:40:59.513: Unable to locate theme engine in module_path: "adwaita",
+/usr/share/themes/Pop-dark/gtk-2.0/main.rc:775: error: unexpected identifier 'direction', expected character '}'
+
+(steam:52963): Gtk-WARNING **: 13:40:59.514: Unable to locate theme engine in module_path: "adwaita",
+/usr/share/themes/Pop-dark/gtk-2.0/hacks.rc:28: error: invalid string constant "normal_entry", expected valid string constant
+steamwebhelper.sh[52972]: Runtime for steamwebhelper: defaulting to /home/eric/.local/share/Steam/ubuntu12_64/steam-runtime-heavy
+steamwebhelper.sh[52972]: glibc >= 2.34, partially disabling sandbox until CEF supports clone3()
+Installing breakpad exception handler for appid(steam)/version(1647446817)
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Installing breakpad exception handler for appid(steam)/version(1647446817)
+Installing breakpad exception handler for appid(steam)/version(1647446817)
+Installing breakpad exception handler for appid(steam)/version(1647446817)
+Installing breakpad exception handler for appid(steam)/version(1647446817)
+Installing breakpad exception handler for appid(steam)/version(1647446817)
+CAppInfoCacheReadFromDiskThread took 16 milliseconds to initialize
+Installing breakpad exception handler for appid(steam)/version(1647446817)
+Installing breakpad exception handler for appid(steam)/version(1647446817)
+Installing breakpad exception handler for appid(steam)/version(1647446817)
+Installing breakpad exception handler for appid(steam)/version(1647446817)
+Installing breakpad exception handler for appid(steam)/version(1647446817)
+Installing breakpad exception handler for appid(steam)/version(1647446817)
+Installing breakpad exception handler for appid(steam)/version(1647446817)
+Installing breakpad exception handler for appid(steam)/version(1647446817)
+Installing breakpad exception handler for appid(steam)/version(1647446817)
+Installing breakpad exception handler for appid(steam)/version(1647446817)
+Installing breakpad exception handler for appid(steam)/version(1647446817)
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Installing breakpad exception handler for appid(steam)/version(1647446817)
+Could not connect to X session manager: None of the authentication protocols specified are supported
+
+(steam:52963): Gtk-WARNING **: 13:41:00.359: gtk_disable_setlocale() must be called before gtk_init()
+local (potentially out of sync) copy of roaming config loaded - 754 bytes.
+Installing breakpad exception handler for appid(steam)/version(1647446817)
+Installing breakpad exception handler for appid(steam)/version(1647446817)
+Connectivity test: result=Connected, in progress=0
+MESA-INTEL: warning: Performance support disabled, consider sysctl dev.i915.perf_stream_paranoid=0
+
+Installing breakpad exception handler for appid(steam)/version(1647446817)
+roaming config store loaded successfully - 754 bytes.
+migrating temporary roaming config store
+BRefreshApplicationsInLibrary 1: 3ms
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Installing breakpad exception handler for appid(steam)/version(1647446817)
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Failed to init SteamVR because it isn't installed
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+ExecCommandLine: "'/home/eric/.local/share/Steam/ubuntu12_32/steam'"
+MESA-INTEL: warning: Performance support disabled, consider sysctl dev.i915.perf_stream_paranoid=0
+
+System startup time: 2.54 seconds
+BuildCompleteAppOverviewChange: 125
+RegisterForAppOverview 1: 4ms
+RegisterForAppOverview 2: 4ms
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Installing breakpad exception handler for appid(steam)/version(1647446817)
+Installing breakpad exception handler for appid(steam)/version(1647446817)
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+
+(steam:52963): GLib-GObject-CRITICAL **: 13:41:46.560: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(steam:52963): GLib-GObject-WARNING **: 13:41:46.562: invalid (NULL) pointer instance
+
+(steam:52963): GLib-GObject-CRITICAL **: 13:41:46.562: g_signal_handlers_disconnect_matched: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(steam:52963): GLib-GObject-CRITICAL **: 13:41:46.563: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+Installing breakpad exception handler for appid(steam)/version(1647446817)
+Installing breakpad exception handler for appid(steam)/version(1647446817)
+[2022-04-27 13:40:58] Startup - updater built Mar 14 2022 19:48:46
+Looks like steam didn't shutdown cleanly, scheduling immediate update check
+[2022-04-27 13:40:58] Loading cached metrics from disk (/home/eric/.local/share/Steam/package/steam_client_metrics.bin)
+[2022-04-27 13:40:58] Using the following download hosts for Public, Realm steamglobal
+[2022-04-27 13:40:58] 1. https://cdn.akamai.steamstatic.com, /client/, Realm 'steamglobal', weight was 100, source = 'update_hosts_cached.vdf'
+[2022-04-27 13:40:58] 2. https://cdn.cloudflare.steamstatic.com, /client/, Realm 'steamglobal', weight was 100, source = 'update_hosts_cached.vdf'
+[2022-04-27 13:40:58] 3. http://media.steampowered.com, /client/, Realm 'steamglobal', weight was 1, source = 'baked in'
+[2022-04-27 13:40:58] Checking for update on startup
+[2022-04-27 13:40:58] Checking for available updates...
+[2022-04-27 13:40:58] Downloading manifest: https://cdn.akamai.steamstatic.com/client/steam_client_ubuntu12
+[2022-04-27 13:40:58] Download skipped: /client/steam_client_ubuntu12 version 1647446817, installed version 1647446817, existing pending version 0
+[2022-04-27 13:40:58] Nothing to do
+[2022-04-27 13:40:58] Verifying installation...
+[2022-04-27 13:40:58] Performing checksum verification of executable files
+[2022-04-27 13:40:59] Verification complete
+[2022-04-27 13:41:46] Shutdown
+steam.sh[54640]: Running Steam on pop 22.04 64-bit
+steam.sh[54640]: STEAM_RUNTIME is enabled automatically
+setup.sh[54778]: Steam runtime environment up-to-date!
+steam.sh[54640]: Steam client's requirements are satisfied
+Installing breakpad exception handler for appid(steam)/version(1647446817)
+Installing breakpad exception handler for appid(steam)/version(1647446817)
+Loaded SDL version 2.0.21-7140709
+Gtk-Message: 13:42:06.080: Failed to load module "gail"
+Gtk-Message: 13:42:06.080: Failed to load module "atk-bridge"
+Gtk-Message: 13:42:06.080: Failed to load module "appmenu-gtk-module"
+
+(steam:54851): Gtk-WARNING **: 13:42:06.082: Unable to locate theme engine in module_path: "adwaita",
+/usr/share/themes/Pop-dark/gtk-2.0/main.rc:775: error: unexpected identifier 'direction', expected character '}'
+
+(steam:54851): Gtk-WARNING **: 13:42:06.083: Unable to locate theme engine in module_path: "adwaita",
+/usr/share/themes/Pop-dark/gtk-2.0/hacks.rc:28: error: invalid string constant "normal_entry", expected valid string constant
+steamwebhelper.sh[54858]: Runtime for steamwebhelper: defaulting to /home/eric/.local/share/Steam/ubuntu12_64/steam-runtime-heavy
+steamwebhelper.sh[54858]: glibc >= 2.34, partially disabling sandbox until CEF supports clone3()
+Installing breakpad exception handler for appid(steam)/version(1647446817)
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Installing breakpad exception handler for appid(steam)/version(1647446817)
+Installing breakpad exception handler for appid(steam)/version(1647446817)
+Installing breakpad exception handler for appid(steam)/version(1647446817)
+Installing breakpad exception handler for appid(steam)/version(1647446817)
+Installing breakpad exception handler for appid(steam)/version(1647446817)
+CAppInfoCacheReadFromDiskThread took 16 milliseconds to initialize
+Installing breakpad exception handler for appid(steam)/version(1647446817)
+Installing breakpad exception handler for appid(steam)/version(1647446817)
+Installing breakpad exception handler for appid(steam)/version(1647446817)
+Installing breakpad exception handler for appid(steam)/version(1647446817)
+Installing breakpad exception handler for appid(steam)/version(1647446817)
+Installing breakpad exception handler for appid(steam)/version(1647446817)
+Installing breakpad exception handler for appid(steam)/version(1647446817)
+Installing breakpad exception handler for appid(steam)/version(1647446817)
+Installing breakpad exception handler for appid(steam)/version(1647446817)
+Installing breakpad exception handler for appid(steam)/version(1647446817)
+Installing breakpad exception handler for appid(steam)/version(1647446817)
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Installing breakpad exception handler for appid(steam)/version(1647446817)
+
+(steam:54851): Gtk-WARNING **: 13:42:06.920: gtk_disable_setlocale() must be called before gtk_init()
+local (potentially out of sync) copy of roaming config loaded - 754 bytes.
+Installing breakpad exception handler for appid(steam)/version(1647446817)
+Installing breakpad exception handler for appid(steam)/version(1647446817)
+Connectivity test: result=Connected, in progress=0
+Installing breakpad exception handler for appid(steam)/version(1647446817)
+MESA-INTEL: warning: Performance support disabled, consider sysctl dev.i915.perf_stream_paranoid=0
+
+roaming config store loaded successfully - 754 bytes.
+migrating temporary roaming config store
+BRefreshApplicationsInLibrary 1: 9ms
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+MESA-INTEL: warning: Performance support disabled, consider sysctl dev.i915.perf_stream_paranoid=0
+
+Installing breakpad exception handler for appid(steam)/version(1647446817)
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Failed to init SteamVR because it isn't installed
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+ExecCommandLine: "'/home/eric/.local/share/Steam/ubuntu12_32/steam'"
+System startup time: 2.92 seconds
+BuildCompleteAppOverviewChange: 125
+RegisterForAppOverview 1: 5ms
+RegisterForAppOverview 2: 5ms
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Installing breakpad exception handler for appid(steam)/version(1647446817)
+Installing breakpad exception handler for appid(steam)/version(1647446817)
+Could not connect to X session manager: None of the authentication protocols specified are supported
+Could not connect to X session manager: None of the authentication protocols specified are supported
+
+(steam:54851): GLib-GObject-CRITICAL **: 13:46:57.624: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(steam:54851): GLib-GObject-WARNING **: 13:46:57.626: invalid (NULL) pointer instance
+
+(steam:54851): GLib-GObject-CRITICAL **: 13:46:57.626: g_signal_handlers_disconnect_matched: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(steam:54851): GLib-GObject-CRITICAL **: 13:46:57.627: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+[2022-04-27 13:42:05] Startup - updater built Mar 14 2022 19:48:46
+[2022-04-27 13:42:05] Loading cached metrics from disk (/home/eric/.local/share/Steam/package/steam_client_metrics.bin)
+[2022-04-27 13:42:05] Using the following download hosts for Public, Realm steamglobal
+[2022-04-27 13:42:05] 1. https://cdn.akamai.steamstatic.com, /client/, Realm 'steamglobal', weight was 100, source = 'update_hosts_cached.vdf'
+[2022-04-27 13:42:05] 2. https://cdn.cloudflare.steamstatic.com, /client/, Realm 'steamglobal', weight was 100, source = 'update_hosts_cached.vdf'
+[2022-04-27 13:42:05] 3. http://media.steampowered.com, /client/, Realm 'steamglobal', weight was 1, source = 'baked in'
+[2022-04-27 13:42:05] Verifying installation...
+[2022-04-27 13:42:05] Verification complete
+[2022-04-27 13:46:57] Shutdown

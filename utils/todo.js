@@ -190,6 +190,7 @@ export default async function todo() {
 			console.log('Error: Missing NUMBER for' + ' marking todo as done.');
 		}
 	} else if (answer.todoMenu == 'report') {
+		spinner.start('buidling report...');
 		let todoData = [];
 
 		let doneData = [];
@@ -212,7 +213,7 @@ export default async function todo() {
 			return value !== '';
 		});
 
-		console.log(
+		spinner.succeed(
 			dateString +
 				' ' +
 				'Pending : ' +
