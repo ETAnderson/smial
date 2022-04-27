@@ -87,7 +87,9 @@ export default async function git() {
 						process.env.GITHUB_USERNAME
 					}/${path.basename(path.resolve(process.cwd()))}.git`,
 					stdout => {
-						spinner.succeed(chalk.bold(`${stdout}`));
+						spinner.succeed(
+							chalk.bold(`Successfully pushed to remote repo!`)
+						);
 					}
 				);
 			} else {
