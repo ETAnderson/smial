@@ -95,7 +95,7 @@ export default async function git() {
 						// 	spinner.fail(`stderr: ${stderr}`);
 						// 	return;
 						// }
-						spinner.succeed(chalk.bold(`${stdout}`));
+						spinner.succeed(chalk.bold(`${stdout.message}`));
 					}
 				);
 			} else {
