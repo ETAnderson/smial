@@ -1,1 +1,10 @@
+x 2022-05-02 brew tea
+x 2022-05-02 laundry
+x 2022-05-02 make more bread dough
+x 2022-05-02 make bruschetta
+x 2022-05-02 dishes
+x 2022-05-02 make car appointment
+x 2022-05-02 order groceries
+x 2022-05-02 bake double-loaf of bread
+x 2022-04-27 build nonblocking 25min timer for pomodoro
 x 2022-04-27 be better

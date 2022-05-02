@@ -1,11 +1,14 @@
+todo clear done function
 
-pomodoro timer - system notifications! node-notifier
+build express server: gmail push notifications?
+
+
 
 automate start up:
     steam
     discord
     
-nodemon dev dependency
+
 
 chain commands in exec( xx && xx && xx)?   
 automate shutdown down/end of night.
@@ -13,16 +16,6 @@ automate shutdown down/end of night.
     discord
     
 
-automate new projects 
-    express 
-    node-cli
-
 add new custom header.
 
 organize/style cli menu/flags to group for like use cases
-
-figure out why git push action is returning stderror instead of success
-
-
-server backend? express?
-    gmail push notifications
