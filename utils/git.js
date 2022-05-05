@@ -9,7 +9,7 @@ export default async function git() {
 	const question = [
 		{
 			name: 'proceed',
-			type: 'input',
+			type: 'list',
 			message: 'Access git actions?',
 			choices: ['Yes', 'No'],
 			default: 'Yes'

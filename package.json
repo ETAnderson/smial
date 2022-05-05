@@ -1,7 +1,7 @@
 {
 	"name": "smial",
 	"description": "a burrow for me to keep my tools in",
-	"version": "1.0.1",
+	"version": "2.0.1",
 	"license": "MIT",
 	"bin": {
 		"smial": "--experimental-json-modules index.js"
@@ -20,6 +20,10 @@
 		"utils"
 	],
 	"scripts": {
+		"pg:init": "pg_ctlcluster 14 main start",
+		"pg:start": "pg_ctl data start",
+		"pg:createdb": "createdb -h 127.0.0.1 app",
+		"pg:stop": "pg_ctl data stop",
 		"format": "prettier --write \"./**/*.{js,json}\"",
 		"dev": "nodemon server.js"
 	},
@@ -37,7 +41,8 @@
 		"meow": "^9.0.0",
 		"node-notifier": "^10.0.1",
 		"open": "^8.4.0",
-		"ora": "^6.1.0"
+		"ora": "^6.1.0",
+		"pg": "^8.7.3"
 	},
 	"devDependencies": {
 		"prettier": "^2.6.2"
