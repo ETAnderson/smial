@@ -1,3 +1,5 @@
+x 2022-05-09 car appointment 8:30am sat
+x 2022-05-09 prepare for interview
 x 2022-05-02 brew tea
 x 2022-05-02 laundry
 x 2022-05-02 make more bread dough

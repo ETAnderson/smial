@@ -28,6 +28,7 @@ export default async function todo() {
 		}
 	};
 
+	displayTodoList();
 	const question = [
 		{
 			name: 'todoMenu',

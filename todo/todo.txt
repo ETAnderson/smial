@@ -1,1 +1,7 @@
+finish fCC project, verify NaN after converting string to new date?
+bake potatoes around 4
+make tea
+call WMCB about new issued and not requested debit card
+make more bread dough
+do dishes
 make express server

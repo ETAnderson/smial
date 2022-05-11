@@ -49,7 +49,7 @@ export default async function pomodoro() {
 
 	const answer = await inquirer.prompt(question);
 
-	if (answer.timer == 'pomdoro') {
+	if (answer.timer == 'pomodoro') {
 		pomodoroTimer(twentyFiveAlert);
 	} else {
 		const question = [
